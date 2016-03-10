@@ -1,0 +1,5 @@
+javac com/orcchg/zufuturo/server/*.java
+jar cvfm zufuturo-server.jar MANIFEST_nocp.MF com/orcchg/zufuturo/server/*.class
+java -jar zufuturo-server.jar
+
+scp * maxa@194.190.63.108:/home/maxa/Develop/Server
